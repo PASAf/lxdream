@@ -1,0 +1,8 @@
+language: c
+compiler:
+  - gcc
+addons:
+  apt:
+    packages:
+    - libisofs-dev
+script: ./configure && make
